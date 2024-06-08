@@ -29,3 +29,16 @@ This project demonstrates how to use an Arduino UNO to control a buzzer. The buz
 
 ### Summary
 By following these steps, you will create a simple circuit that controls a buzzer using an Arduino UNO. This project helps beginners understand how to manage digital outputs and timing functions with an Arduino, providing a foundation for more complex projects.
+
+---
+
+### Whether you're working on electronics projects, IoT applications, or robotics innovations, Projects Learner is your go-to platform for guidance and expertise.
+
+🌐 [projectslearner.com](https://www.projectslearner.com)  
+📧 [projectslearner@gmail.com](mailto:projectslearner@gmail.com)  
+📸 [Instagram](https://www.instagram.com/projectslearner/)  
+📘 [Facebook](https://www.facebook.com/projectslearner)  
+▶️ [YouTube](https://www.youtube.com/@ProjectsLearner)  
+📘 [LinkedIn](https://www.linkedin.com/in/projectslearner)  
+
+## Made for you with ❣️ from ProjectsLearner
