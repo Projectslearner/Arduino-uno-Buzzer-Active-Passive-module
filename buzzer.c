@@ -1,7 +1,7 @@
 /*
-    Code by : Projects_learner
     Project name : Buzzer using Ardino UNO
-    Modified Date : 29-05-2023
+    Modified Date : 29-05-2024
+    Code by : Projectslearner
     Website : https://projectslearner.com/learn/arduino-uno-buzzer-active-passive-module
 */
 

@@ -1,38 +1,62 @@
-### Arduino UNO Buzzer Control
+ # Push Button using Arduino UNO
 
-### Description
-This project demonstrates how to use an Arduino UNO to control a buzzer. The buzzer will alternate between on and off states every second, creating a simple beeping sound. This project is ideal for beginners who want to learn about digital output control using the Arduino platform.
+#### Project Overview
 
-### Components Needed
-1. **Arduino UNO**: The microcontroller board that will run the program.
-2. **Active Buzzer Module**: A component that produces sound when activated.
-3. **Breadboard**: A platform for prototyping electronic circuits.
-4. **Jumper Wires**: Wires to connect the Arduino, buzzer, and breadboard.
+This project demonstrates how to control an LED using a push button with an Arduino UNO. When the button is pressed, the LED turns on, and when it is released, the LED turns off.
 
-### Instructions
-1. **Wiring the Buzzer**:
-   - Connect the positive pin of the active buzzer to digital pin 8 on the Arduino.
-   - Connect the negative pin of the active buzzer to one of the GND (ground) pins on the Arduino.
+#### Components Needed
 
-2. **Connecting the Arduino**:
-   - Use a USB cable to connect the Arduino UNO to your computer.
+1. **Arduino UNO Board**
+2. **LED**
+3. **Push Button**
+4. **Resistor (220 ohms)**
+5. **Breadboard**
+6. **Jumper Wires**
 
-3. **Setting Up the Arduino IDE**:
-   - Open the Arduino IDE on your computer.
-   - Write or paste the provided code into the IDE.
-   - Select the correct board and port from the Tools menu.
-   - Upload the code to the Arduino by clicking the upload button.
+#### Block Diagram
 
-4. **Observing the Buzzer**:
-   - After the code is uploaded, the buzzer should start beeping with one-second intervals between each beep.
-   - If the buzzer does not beep, double-check the wiring connections and ensure that the code was uploaded correctly.
+![Push Button Diagram](block_diagram.png)
 
-### Summary
-By following these steps, you will create a simple circuit that controls a buzzer using an Arduino UNO. This project helps beginners understand how to manage digital outputs and timing functions with an Arduino, providing a foundation for more complex projects.
+#### Circuit Wiring
+
+1. **LED and Button:**
+   - Connect the LED's positive (longer) leg to pin 10 (LED) on the Arduino through a 220-ohm resistor.
+   - Connect the LED's negative (shorter) leg to the ground (GND) on the Arduino.
+   - Connect one leg of the push button to pin 2 (btn) on the Arduino.
+   - Connect the other leg of the push button to the 5V pin on the Arduino.
+
+#### Instructions
+
+1. **Assemble the Circuit:**
+   - Set up the circuit as per the wiring instructions.
+   - Ensure all connections are secure and components are placed correctly on the breadboard.
+
+2. **Upload the Code:**
+   - Copy and paste the provided code into the Arduino IDE.
+   - Verify and upload the code to your Arduino board.
+
+3. **Observe the LED Behavior:**
+   - When the push button is pressed, the LED turns on.
+   - When the push button is released, the LED turns off.
+
+#### Project Operation
+
+- **Initialization:**
+  - The Arduino initializes pin 10 (LED) as an output and pin 2 (btn) as an input.
+
+- **Button Control:**
+  - When the button is pressed (transition from LOW to HIGH state), the LED turns on, and "Button Pressed" is printed to the Serial Monitor.
+  - When the button is released (transition from HIGH to LOW state), the LED turns off.
+
+#### Applications
+
+- **Simple Switch Control:** Use the push button to control various devices or functions in your projects.
+- **Interactive Projects:** Incorporate push buttons for user interaction in your Arduino-based projects.
+- **Learning and Experimentation:** Ideal for learning about digital input and output control with Arduino.
 
 ---
 
-### Whether you're working on electronics projects, IoT applications, or robotics innovations, Projects Learner is your go-to platform for guidance and expertise.
+### For more Arduino projects and tutorials, visit Projects Learner - your destination for hands-on learning and experimentation with electronics and programming.
 
 🌐 [projectslearner.com](https://www.projectslearner.com)  
 📧 [projectslearner@gmail.com](mailto:projectslearner@gmail.com)  
@@ -40,5 +64,8 @@ By following these steps, you will create a simple circuit that controls a buzze
 📘 [Facebook](https://www.facebook.com/projectslearner)  
 ▶️ [YouTube](https://www.youtube.com/@ProjectsLearner)  
 📘 [LinkedIn](https://www.linkedin.com/in/projectslearner)  
+
+
+ 
 
 ## Made for you with ❣️ from ProjectsLearner
