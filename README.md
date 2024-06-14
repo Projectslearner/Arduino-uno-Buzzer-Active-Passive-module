@@ -1,71 +1,57 @@
- # Push Button using Arduino UNO
+# Buzzer Using Arduino UNO
 
 #### Project Overview
 
-This project demonstrates how to control an LED using a push button with an Arduino UNO. When the button is pressed, the LED turns on, and when it is released, the LED turns off.
+The **Buzzer Using Arduino UNO** project showcases how to control an active or passive buzzer with an Arduino UNO. By turning the buzzer on and off at regular intervals, you can create a simple beeping sound. This project is a great starting point for learning how to use buzzers in various applications, such as alarms, notifications, and sound effects.
 
 #### Components Needed
 
-1. **Arduino UNO Board**
-2. **LED**
-3. **Push Button**
-4. **Resistor (220 ohms)**
-5. **Breadboard**
-6. **Jumper Wires**
+- **Arduino UNO**
+- **Buzzer (active or passive)**
+- **Jumper Wires**
 
 #### Block Diagram
 
-![Push Button Diagram](block_diagram.png)
 
-#### Circuit Wiring
+#### Circuit Setup
 
-1. **LED and Button:**
-   - Connect the LED's positive (longer) leg to pin 10 (LED) on the Arduino through a 220-ohm resistor.
-   - Connect the LED's negative (shorter) leg to the ground (GND) on the Arduino.
-   - Connect one leg of the push button to pin 2 (btn) on the Arduino.
-   - Connect the other leg of the push button to the 5V pin on the Arduino.
+1. **Connect the Buzzer to Arduino UNO:**
+   - **Buzzer Positive Pin**: Connect to digital pin 8 on Arduino UNO.
+   - **Buzzer Negative Pin**: Connect to GND on Arduino UNO.
 
 #### Instructions
 
-1. **Assemble the Circuit:**
-   - Set up the circuit as per the wiring instructions.
-   - Ensure all connections are secure and components are placed correctly on the breadboard.
+1. **Circuit Setup:**
+   - Connect the buzzer as per the circuit setup instructions provided.
+   - Ensure the positive and negative pins of the buzzer are connected correctly.
 
-2. **Upload the Code:**
-   - Copy and paste the provided code into the Arduino IDE.
-   - Verify and upload the code to your Arduino board.
+2. **Code Upload:**
+   - Open the Arduino IDE and create a new sketch.
+   - Copy and paste the provided Arduino code into the sketch.
 
-3. **Observe the LED Behavior:**
-   - When the push button is pressed, the LED turns on.
-   - When the push button is released, the LED turns off.
-
-#### Project Operation
-
-- **Initialization:**
-  - The Arduino initializes pin 10 (LED) as an output and pin 2 (btn) as an input.
-
-- **Button Control:**
-  - When the button is pressed (transition from LOW to HIGH state), the LED turns on, and "Button Pressed" is printed to the Serial Monitor.
-  - When the button is released (transition from HIGH to LOW state), the LED turns off.
+3. **Testing:**
+   - Upload the code to the Arduino UNO.
+   - The buzzer will turn on for 1 second and then turn off for 1 second, creating a beeping sound.
 
 #### Applications
 
-- **Simple Switch Control:** Use the push button to control various devices or functions in your projects.
-- **Interactive Projects:** Incorporate push buttons for user interaction in your Arduino-based projects.
-- **Learning and Experimentation:** Ideal for learning about digital input and output control with Arduino.
+- **Alarms:** Use buzzers in security systems or timers.
+- **Notifications:** Provide audio feedback in user interfaces.
+- **Sound Effects:** Integrate buzzers into games or interactive projects.
+
+#### Notes
+
+- **Active vs. Passive Buzzer:** Ensure you know whether you are using an active or passive buzzer. Active buzzers have built-in oscillators and only need a power supply to produce sound. Passive buzzers require a square wave signal.
+- **Delay Adjustments:** Change the delay values in the code to modify the beeping pattern.
+- **Power Considerations:** Ensure the Arduino can supply sufficient current for the buzzer, especially if using multiple buzzers or other components.
 
 ---
 
-### For more Arduino projects and tutorials, visit Projects Learner - your destination for hands-on learning and experimentation with electronics and programming.
-
-🌐 [projectslearner.com](https://www.projectslearner.com)  
+🌐 [ProjectsLearner](https://projectslearner.com/learn/arduino-uno-buzzer-active-passive-module)  
 📧 [projectslearner@gmail.com](mailto:projectslearner@gmail.com)  
 📸 [Instagram](https://www.instagram.com/projectslearner/)  
 📘 [Facebook](https://www.facebook.com/projectslearner)  
 ▶️ [YouTube](https://www.youtube.com/@ProjectsLearner)  
 📘 [LinkedIn](https://www.linkedin.com/in/projectslearner)  
 
-
- 
-
-## Made for you with ❣️ from ProjectsLearner
+Crafted for you with ❤️ from ProjectsLearner
